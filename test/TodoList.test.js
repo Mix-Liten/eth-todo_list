@@ -21,7 +21,7 @@ contract("TodoList", (accounts) => {
     assert.equal(task.id.toNumber(), taskCount.toNumber());
     assert.equal(task.content, "Hello World!");
     assert.equal(task.completed, false);
-    assert.equal(taskCount.toNUmber(), 1);
+    assert.equal(taskCount.toNumber(), 1);
   });
 
   it("create task", async () => {

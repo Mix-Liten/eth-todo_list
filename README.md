@@ -17,3 +17,4 @@
   - `truffle compile`
   - `truffle migrate`
   - `truffle console`
+  - `truffle test`
